@@ -4,9 +4,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from divergence_model import DivergenceAnalysis
 
-st.set_page_config(page_title="Análisis de Divergencia", layout="wide")
+st.set_page_config(page_title="Anális de divergencia MARL", layout="wide")
 
-st.title("Análisis de Divergencia - Geopresiones")
+st.title("Análisis de Divergencia - Geopresiones. HECHO POR MARL") 
 st.markdown("""
 Esta aplicación permite realizar un análisis de geopresiones utilizando el método de divergencia.
 Carga tu archivo Excel para comenzar.
