@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoPortafolio | Explorando datos, revelando la Tierra</title>
+    <meta name="description"
+        content="Portafolio de Geociencias y Ciencia de Datos. Explorando el subsuelo con tecnología.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FontAwesome for Icons (Optional for buttons/socials) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <nav class="container">
+            <a href="#" class="logo">Geo<span class="highlight">Dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><button id="theme-toggle" aria-label="Cambiar tema"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-background">
+                <div class="layer layer-1"></div>
+                <div class="layer layer-2"></div>
+            </div>
+            <div class="container hero-content">
+                <h1>Explorando datos, <br> revelando la <span class="text-gradient">Tierra</span></h1>
+                <p>Geociencias + Código. Transformando observaciones en conocimiento.</p>
+                <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+            </div>
+        </section>
+
+        <section id="about" class="container section-padding">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Soy un geocientífico apasionado por la intersección entre el estudio de la Tierra y la
+                        tecnología. Utilizo Python, SIG y aprendizaje automático para resolver problemas complejos del
+                        subsuelo.</p>
+                    <div class="skills">
+                        <span class="skill-tag">GIS</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Interpretación Sísmica</span>
+                        <span class="skill-tag">Visualización de Datos</span>
+                    </div>
+                </div>
+                <!-- Placeholder for profile image or graphic could go here -->
+            </div>
+        </section>
+
+        <section id="projects" class="container section-padding">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="project-grid">
+                <!-- Data Visualization Project -->
+                <article class="project-card">
+                    <div class="project-image" style="background-image: linear-gradient(45deg, #2b3a42, #3f51b5);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Análisis de Registros de Pozo</h3>
+                        <div class="tags">
+                            <span class="tag">Petrofísica</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <p>Clasificación automática de litologías usando Random Forest y visualización interactiva de
+                            logs.</p>
+                        <a href="#" class="project-link">Ver Código <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Mapping Project -->
+                <article class="project-card">
+                    <div class="project-image" style="background-image: linear-gradient(45deg, #1d2671, #c33764);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mapeo de Fallas Satelital</h3>
+                        <div class="tags">
+                            <span class="tag">Mapeo</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                        <p>Detección de lineamientos estructurales en imágenes satelitales utilizando visión por
+                            computadora.</p>
+                        <a href="#" class="project-link">Ver Mapa <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Seismic Project -->
+                <article class="project-card">
+                    <div class="project-image" style="background-image: linear-gradient(45deg, #00d2ff, #3a7bd5);">
+                    </div>
+                    <div class="project-info">
+                        <h3>Inversión Sísmica Simplificada</h3>
+                        <div class="tags">
+                            <span class="tag">Sismología</span>
+                            <span class="tag">C++</span>
+                        </div>
+                        <p>Algoritmo optimizado para inversión de impedancia acústica en tiempo real.</p>
+                        <a href="#" class="project-link">Leer Paper <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container section-padding">
+            <div class="contact-box glass-card">
+                <h2>¿Trabajamos juntos?</h2>
+                <p>Estoy disponible para colaboraciones en análisis de datos y consultoría geológica.</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="mailto:hola@geodev.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GeoDev. Diseñado con estratos de código.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
